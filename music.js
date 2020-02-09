@@ -41,3 +41,14 @@ function handleAuthClick() {
 function handleSignoutClick() {
   gapi.auth2.getAuthInstance().signOut();
 }
+
+// Update sign in status
+function updateSigninStatus(_signedIn) {
+  if (_signedIn) {
+    btnAuth.style.display = 'none';
+    btnSignout.style.display = 'block';
+  } else {
+    btnAuth.style.display = 'block';
+    btnSignout.style.display = 'none';
+  }
+}
