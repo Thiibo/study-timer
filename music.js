@@ -2,7 +2,7 @@ const CLIENT_ID = '335342881984-mbgnfkqp0hkvqi1ccbnjanndu2d642rb.apps.googleuser
 const DISCOVERY_DOCS = [
   'https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest'
 ];
-const SCOPES = 'https://www.googleapis.com/auth/youtube.readonly';
+const SCOPES = 'https://www.googleapis.com/auth/youtube';
 
 const btnAuth = document.getElementById('btnAuth');
 const btnSignout = document.getElementById('btnSignout');
