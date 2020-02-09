@@ -1,0 +1,11 @@
+#bg1, #bg2, #fg {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+#bg1, #bg2 {
+  width: 100vw;
+  height: 100vh;
+}
+#fg {
+  background-color: rgba(0, 0, 0, 0.6);
+}

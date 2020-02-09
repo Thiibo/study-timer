@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/jquery-ui/jquery-ui.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui/jquery-ui.min.js"></script>
+    <title>Study timer</title>
+  </head>
+  <body>
+    <img src="" id="bg1">
+    <img src="" id="bg2">
+    <div id="fg">
+      <div id="clock">
+
+      </div>
+      <div id="player">
+        <div id="auth">
+          <button id="btnAuth" type="button" name="button">Log in with Google</button>
+          <button id="btnSignout" type="button" name="button">Log out</button>
+        </div>
+      </div>
+    </div>
+    <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
+    <script type="text/javascript" src="music.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
